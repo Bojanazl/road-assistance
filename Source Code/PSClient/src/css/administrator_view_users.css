@@ -1,0 +1,24 @@
+.pregledajbutton { 
+	-fx-background-radius: 5em; 
+	-fx-background-color: transparent;
+	-fx-background-image: url("/resources/images/administrator_view_users_default.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: 100% 100%
+}
+
+.button:hover {
+	-fx-background-image: url("/resources/images/administrator_view_users_hover.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: 100% 100%
+}
+
+.button:pressed {
+	-fx-background-image: url("/resources/images/administrator_view_users_clicked.png");
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: 100% 100%
+}
+
+
